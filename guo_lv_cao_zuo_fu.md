@@ -29,7 +29,7 @@ assertEquals(listOf(1, 2, 3, 4), list.dropLastWhile { it > 4 })
 过滤所有符合给定函数条件的元素。
 
 ```kotin
-assertEquals(listOf(2, 4, 6), list .ilter { it % 2 == 0 })
+assertEquals(listOf(2, 4, 6), list.filter { it % 2 == 0 })
 ```
 
 #### filterNot
