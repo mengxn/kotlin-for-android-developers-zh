@@ -33,4 +33,4 @@ val result = forecastDbHelper.use {
 
 由于使用了`try-finally`，`use`方法会确保不管在数据库操作执行成功还是失败都会去关闭数据库。
 
-而且，在`sqliteDatabase`中还有很多有用的扩展函数，我们会在之后使用到他们。但是现在让我们先定义我们的表和实现`SqliteOopenHelper`。
+而且，在`sqliteDatabase`中还有很多有用的扩展函数，我们会在之后使用到他们。但是现在让我们先定义我们的表和实现`SqliteOpenHelper`。
